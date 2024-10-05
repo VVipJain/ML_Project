@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .welcome-container {
+            text-align: center;
+            margin-top: 100px;
+            padding: 50px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .btn-start {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn-start:hover {
+            background-color: #45a049;
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to the Student Exam Performance Predictor</h1>
+        <p>Predict your performance based on various factors such as gender, ethnicity, parental education level, and more.</p>
+        <a href="{{ url_for('predict_datapoint') }}" class="btn btn-start">Get Started</a>
+    </div>
+</body>
+</html>
+
