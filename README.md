@@ -12,7 +12,7 @@ This is a web application that predicts student math exam scores based on variou
 The **Student Math Exam Score Predictor** aims to predict the math scores of students using a machine learning model trained on student data. The model is deployed as a web application where users can input student details and get a predicted math score.
 
 ## Features
-- Predict student math exam scores.
+- Predict student exam scores.
 - Input features include gender, ethnicity, parental education level, lunch type, test preparation, reading score, and writing score.
 - Built using Flask and deployed on AWS Elastic Beanstalk for seamless scalability.
   
