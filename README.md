@@ -30,3 +30,4 @@ The **Student Math Exam Score Predictor** aims to predict the math scores of stu
 - Prediction Form:
   ![image](https://github.com/user-attachments/assets/fb38c87a-8450-4add-a9a8-bef60c9aab8c)
 
+---
